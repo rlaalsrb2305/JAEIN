@@ -15,7 +15,7 @@ async def on_ready():
     print("!명령어,!변태순위 입니다")
     print("===========")
 
-    await client.change_presence(game=discord.Game(name="북한이 먼저다", type=1))
+    await client.change_presence(game=discord.Game(name="북한이 먼저다 | !재이니 한마디", type=1))
 
 
 @client.event
