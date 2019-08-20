@@ -51,19 +51,5 @@ async def on_message(message):
 
         await client.send_message(channel, embed=embed)
         
-    if message.content.startswith("!오늘기분"):
-        channel = message.channel
-        embed = discord.Embed(
-            title='크흠큼큼',
-            description='어..궁민 여러분..',
-            colour=discord.Colour.blue()
-        )
-
-        embed.set_footer(text='이상입다')
-        embed.add_field(name='씨발', value='조깠네 아주', inline=False)
-        embed.set_image(url="https://search.pstatic.net/common?type=a&size=120x150&quality=95&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2Fportrait%2F201611%2F20161122215734443.png")
-
-        await client.send_message(channel, embed=embed)
-        
 
 client.run("NTkxOTU4NTMyNDcyMDQ1NTg2.XQ4Xdg.FRnJ-sGrYFC-e9RfXUrIGBrVqA0")
