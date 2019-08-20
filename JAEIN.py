@@ -52,4 +52,4 @@ async def on_message(message):
         await client.send_message(channel, embed=embed)
         
 
-client.run("NTkxOTU4NTMyNDcyMDQ1NTg2.XQ4Xdg.FRnJ-sGrYFC-e9RfXUrIGBrVqA0")
+client.run("NTkxOTU4NTMyNDcyMDQ1NTg2.XVu2CQ.hqYGX69CFeKkcq-73PaRYxtK8bM")
