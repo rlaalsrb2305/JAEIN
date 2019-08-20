@@ -51,7 +51,7 @@ async def on_message(message):
 
         await client.send_message(channel, embed=embed)
         
-      if message.content.startswith("!재이니오늘기분"):
+    if message.content.startswith("!오늘기분"):
         channel = message.channel
         embed = discord.Embed(
             title='크흠큼큼',
