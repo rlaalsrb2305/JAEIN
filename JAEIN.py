@@ -3,10 +3,10 @@ import random
 
 client = discord.Client()
 
-To1 = NTkxOTU4NTMy
-To2 = NDcyMDQ1NTg2
-To3 = .XVu2CQ.hqYGX69
-To4 = CFeKkcq-73PaRYxtK8bM
+To1 = NTkxOTU4NTMyND
+To2 = cyMDQ1NTg2.XVu3Fg
+To3 = .Oorq2d82vPqf
+To4 = WNaa1b1X84zZOwM
 
 @client.event
 async def on_ready():
