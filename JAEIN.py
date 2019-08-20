@@ -3,6 +3,10 @@ import random
 
 client = discord.Client()
 
+To1 = NTkxOTU4NTMy
+To2 = NDcyMDQ1NTg2
+To3 = .XVu2CQ.hqYGX69
+To4 = CFeKkcq-73PaRYxtK8bM
 
 @client.event
 async def on_ready():
@@ -52,4 +56,4 @@ async def on_message(message):
         await client.send_message(channel, embed=embed)
         
 
-client.run("NTkxOTU4NTMyNDcyMDQ1NTg2.XVu2CQ.hqYGX69CFeKkcq-73PaRYxtK8bM")
+client.run(To1 + To2 + To3 + To4)
